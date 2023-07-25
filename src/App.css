@@ -1,0 +1,200 @@
+.proj-name{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  padding-bottom: 28px;
+  padding-top: 28px;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropdown-button {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  color: #333;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+/* Style the dropdown list */
+.dropdown-list {
+  list-style-type: none;
+  padding: 5px;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #f5f5f5;
+  border-top: none;
+  display: none;
+  margin: 0;
+  font-size: 14px;
+  z-index: 1; 
+}
+
+/* Show the dropdown list when the button is clicked */
+.show {
+  display: block;
+}
+
+/* Style the dropdown list items */
+.dropdown-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Highlight the selected item */
+.dropdown-list li:hover {
+  background-color: #f4f4f4;
+} 
+
+.custom-input {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Style the calendar icon */
+.calendar-icon {
+  margin-right: 8px;
+  color: #333;
+}
+
+/* Style the input text */
+.input-text {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.date-btn{
+  margin-left: 24px;
+}
+
+.container-x1 {
+  display: flex; 
+  align-items: center; 
+  margin-top: 24px;
+  margin-bottom: 12px;
+  
+}
+
+.container-x1 .react-datepicker-wrapper {
+  min-width: 175px; /* Adjust the width as needed */
+}
+
+
+
+
+/* Style the input field container */
+.input-group {
+  width: 900px; /* Set the width of the search bar */
+  margin-left: 124px;
+  margin-right: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px; 
+  border:1px solid rgb(201, 197, 197);
+  box-shadow: 0 2px 0px rgba(195, 192, 192, 0.8);
+}
+
+/* Style the input field */
+.form-control {
+  padding-left: 4px; 
+  height: 40px;
+  font-size: 16px; 
+  /* border-radius: 30px; 
+  border:1px solid rgb(201, 197, 197);
+  box-shadow: 0 2px 0px rgba(195, 192, 192, 0.8); */
+  border: none;
+  outline: none;
+  padding-right: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control:focus{
+  outline: none;
+  border:0px solid rgb(255, 255, 255);
+  box-shadow: 0 0px 0px rgba(255, 255, 255, 0.8);
+  border-left: none;
+}
+
+/* Style the icon */
+.input-group-text {
+  background-color: #ffffff;
+  border-radius: 30px 0 0 30px; 
+  color: #525252;
+  height: 40px; 
+  line-height: 40px; 
+  width: 40px; 
+  text-align: center; 
+  border:1px solid rgb(201, 197, 197);
+  box-shadow: 0 2px 0px rgba(195, 192, 192, 0.8);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+
+.filter-btn{
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px; 
+  margin-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+
+.body {
+  border: 1px solid rgb(187, 186, 186);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 95%;
+  margin-top: 34px;
+  margin-left: 32px;
+  display: flex; /* Add flex display */
+
+}
+
+.listContainer {
+  width: 60%; /* Set the width for the list container */
+}
+
+/* Set the width for the map container */
+.MuiPaper-root.mapContainer {
+  width: 40%;
+  min-width: 400px; /* Set the minimum width for the map */
+}
+
+
+/* maps */
+/* 
+.mapContainer {
+  height: '85vh'; 
+  width: '100%';
+} */
