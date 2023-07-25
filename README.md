@@ -64,5 +64,5 @@ We encourage you to explore the Travel Advisor App, contribute to its growth, an
 # Contact
 For any questions, feedback, or inquiries, feel free to reach out to me at [mfurquan.sal@example.com] or via LinkedIn messaging [https://www.linkedin.com/in/furquansal] . Looking forward to hear from you!
 
- ** Developer's Portfolio - [https://furquansal.github.io/myportfolio.github.io/] **
+ Developer's Portfolio - [https://furquansal.github.io/myportfolio.github.io/]
 
